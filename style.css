@@ -13,9 +13,55 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-color: rgb(61, 67, 169);
+    /* BG from https://www.pexels.com/@blitzboy/ */
+    background-color: rgb(41, 54, 66);
+    background: url(./img/landscape.jpg) no-repeat center center/ cover;
     color: #fff;
-    flex-direction: column;
+    /* flex-direction: column; */
+}
+
+.container {
+    background-color: rgba(41, 54, 66, 0.817);
+    width: 30%;
+    height: 250px;
+    border-radius: 32px;
+    box-shadow: 0 0 3px #000;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+button {
+    margin: 0 16px;
+    border: none;
+    color: #fff;
+    background-color: inherit;
+}
+
+button i {
+    font-size: 2.5rem;
+    padding: 8px 12px;
+}
+
+#play:hover {
+    color: rgb(59, 156, 104);
+    
+}
+
+#pause:hover {
+    color: rgb(235, 145, 42);
+}
+
+#reset:hover {
+    color:  rgb(214, 27, 27);;
 }
 
 footer {
